@@ -1,0 +1,23 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            client-id: 25894ce10e8138c73e1a
+            client-secret: 882fa28a68bc3b90a5b2eb24eea3b3a791056b3d
+
+logging:
+  level:
+    org:
+      springframework: DEBUG
+      springframework.security: DEBUG
+#application.properties and application.yml is same thing but in yml file we write in hierarical notation
+
+#spring.security.oauth2.client.registration.github.client-id = 3e23a2c6d4dfda3443b4
+#spring.security.oauth2.client.registration.github.client-secret = a12a23d213319bbb88bf620ea92569bbb0ccb381
+#logging.level.org.springframework.security=DEBUG
+#logging.level.org.springframework = DEBUG
+
+#spring.security.oauth2.client.registration// after this any third party service like github or fb or any can be present so we can't bind it
+#//spring-configuration-metadeta-json file
